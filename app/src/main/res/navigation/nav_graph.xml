@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/drugDetails">
+
+    <fragment
+        android:id="@+id/drugDetails"
+        android:name="com.nataliagornikowska.wyklad.view.DrugDetails"
+        android:label="fragment_drug_details"
+        tools:layout="@layout/fragment_drug_details" >
+        <action
+            android:id="@+id/action_drugDetails_to_drugList"
+            app:destination="@id/drugList" />
+        <argument
+            android:name="drugId"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="drescription"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.nataliagornikowska.wyklad.view.LogIn"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logIn_to_drugList"
+            app:destination="@id/drugList" />
+    </fragment>
+    <fragment
+        android:id="@+id/drugList"
+        android:name="com.nataliagornikowska.wyklad.view.DrugList"
+        android:label="fragment_drug_list"
+        tools:layout="@layout/fragment_drug_list" >
+        <action
+            android:id="@+id/action_drugList_to_drugDetails"
+            app:destination="@id/drugDetails" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_logIn"
+        app:destination="@id/logIn" />
+</navigation>

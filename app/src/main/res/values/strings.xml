@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">wyklad</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="login">Login</string>
+    <string name="has_o">Hasło</string>
+    <string name="wproawdz_login">Wproawdż login</string>
+    <string name="wproawdz_haslo">Wproawdż haslo</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="opis">Opis</string>
+</resources>

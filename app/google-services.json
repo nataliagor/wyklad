@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "337141416631",
+    "project_id": "wyklad-4fe95",
+    "storage_bucket": "wyklad-4fe95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337141416631:android:f2622735d1a01961ac4332",
+        "android_client_info": {
+          "package_name": "com.nataliagornikowska.wyklad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApV_toK9NH9HY0Cm2ZeIxIVE2zB6DRENw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
